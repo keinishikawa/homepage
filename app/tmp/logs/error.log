@@ -1,0 +1,2212 @@
+2015-08-08 04:22:25 Error: [MissingControllerException] Controller class TestController could not be found.
+Exception Attributes: array (
+  'class' => 'TestController',
+  'plugin' => NULL,
+)
+Request URL: /test
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-08 04:25:02 Error: [MissingControllerException] Controller class Test2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Test2Controller',
+  'plugin' => NULL,
+)
+Request URL: /test2
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-08 08:35:50 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';' in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/PagesController.php, line 12]
+2015-08-08 08:35:50 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';'
+Request URL: /
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 12, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 12, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-08 08:36:27 Error: Fatal Error (1): Call to undefined function ver_dump() in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/PagesController.php, line 14]
+2015-08-08 08:36:27 Error: [FatalErrorException] Call to undefined function ver_dump()
+Request URL: /
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 14, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 14, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-08 08:53:06 Error: Fatal Error (4): syntax error, unexpected 'foreach' (T_FOREACH) in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/View/Pages/index.ctp, line 18]
+2015-08-08 08:53:06 Error: [FatalErrorException] syntax error, unexpected 'foreach' (T_FOREACH)
+Request URL: /
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 18, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 18, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-08 09:02:29 Error: Fatal Error (4): syntax error, unexpected '/' in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/View/Pages/index.ctp, line 6]
+2015-08-08 09:02:29 Error: [FatalErrorException] syntax error, unexpected '/'
+Request URL: /
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 6, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 6, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-08 09:48:19 Error: [MissingViewException] View file "Topics/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Topics/add.ctp',
+)
+Request URL: /topics/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-08 10:20:37 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/View/Topics/add.ctp, line 13]
+2015-08-08 10:20:37 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /topics/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 13, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 13, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-08 10:44:12 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/TopicsController.php, line 16]
+2015-08-08 10:44:12 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /topics/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 16, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 16, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-08 10:45:55 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/TopicsController.php, line 16]
+2015-08-08 10:45:55 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /topics/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 16, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 16, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-08 10:46:45 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/TopicsController.php, line 16]
+2015-08-08 10:46:45 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /topics/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 16, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 16, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-08 11:06:59 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/TopicsController.php, line 26]
+2015-08-08 11:06:59 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /topics/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 26, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 26, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-08 11:07:45 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/TopicsController.php, line 38]
+2015-08-08 11:07:45 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /topics/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 38, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 38, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-08 11:08:57 Error: Fatal Error (1): Call to undefined function redirect() in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/TopicsController.php, line 22]
+2015-08-08 11:08:57 Error: [FatalErrorException] Call to undefined function redirect()
+Request URL: /topics/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 22, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 22, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-08 11:35:19 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/TopicsController.php, line 15]
+2015-08-08 11:35:19 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /topics/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 15, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 15, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-08 11:35:44 Error: [MissingViewException] View file "Topics/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Topics/delete.ctp',
+)
+Request URL: /topics/delete/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-08 11:40:05 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/View/Pages/index.ctp, line 16]
+2015-08-08 11:40:05 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 16, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 16, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-08 11:40:55 Error: [MissingControllerException] Controller class CakeController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeController',
+  'plugin' => NULL,
+)
+Request URL: /cake/categories/view1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-08 11:41:01 Error: [MissingViewException] View file "Topics/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Topics/delete.ctp',
+)
+Request URL: /topics/delete/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-08 11:44:04 Error: [MissingViewException] View file "Topics/edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Topics/edit.ctp',
+)
+Request URL: /topics/edit/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-08 11:45:01 Error: [MissingViewException] View file "Topics/edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Topics/edit.ctp',
+)
+Request URL: /topics/edit/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-08 11:46:34 Error: [MissingControllerException] Controller class CakeController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeController',
+  'plugin' => NULL,
+)
+Request URL: /cake/categories/view1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-08 11:48:04 Error: [MissingViewException] View file "Topics/edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Topics/edit.ctp',
+)
+Request URL: /topics/edit/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-08 11:53:01 Error: [MissingViewException] View file "Topics/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Topics/delete.ctp',
+)
+Request URL: /topics/delete/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-08 11:58:02 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`blog`.`comments`, CONSTRAINT `FK_comments_topic_id` FOREIGN KEY (`topic_id`) REFERENCES `topics` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /topics/delete/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('DELETE `Topic` ...', Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/Database/Mysql.php(455): DboSource->execute('DELETE `Topic` ...')
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Model.php(2709): Mysql->delete(Object(Topic), Array)
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/TopicsController.php(41): Model->delete('1')
+#5 [internal function]: TopicsController->delete('1')
+#6 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TopicsController), Array)
+#7 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-08-08 12:06:16 Error: Fatal Error (4): syntax error, unexpected '<' in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/TopicsController.php, line 36]
+2015-08-08 12:06:16 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /topics/edit/5
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 36, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 36, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-09 04:52:14 Error: Fatal Error (4): syntax error, unexpected '<' in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/PagesController.php, line 19]
+2015-08-09 04:52:14 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 19, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 19, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-09 04:52:34 Error: Fatal Error (4): syntax error, unexpected '<' in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/PagesController.php, line 19]
+2015-08-09 04:52:34 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 19, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 19, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-09 05:12:05 Error: Fatal Error (4): syntax error, unexpected '<' in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/TopicsController.php, line 36]
+2015-08-09 05:12:05 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /topics/edit/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 36, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 36, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-09 05:21:57 Error: Fatal Error (4): syntax error, unexpected '<' in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/TopicsController.php, line 36]
+2015-08-09 05:21:57 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /topics/delete/6
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 36, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 36, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-09 05:22:08 Error: Fatal Error (4): syntax error, unexpected '<' in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/TopicsController.php, line 36]
+2015-08-09 05:22:08 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /topics/delete/6
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 36, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 36, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-09 05:24:11 Error: [NotFoundException] Invalid topic
+Request URL: /topics/edit/1
+Stack Trace:
+#0 [internal function]: TopicsController->edit('1')
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TopicsController), Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-09 05:32:50 Error: Fatal Error (4): syntax error, unexpected end of file in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/View/Pages/index.ctp, line 59]
+2015-08-09 05:32:50 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 59)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 59, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 59, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-09 05:33:44 Error: Fatal Error (4): syntax error, unexpected end of file in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/View/Pages/index.ctp, line 64]
+2015-08-09 05:33:44 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 64)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 64, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 64, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-09 05:33:59 Error: Fatal Error (4): syntax error, unexpected end of file in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/View/Pages/index.ctp, line 63]
+2015-08-09 05:33:59 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 63, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 63, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-09 05:34:20 Error: Fatal Error (4): syntax error, unexpected end of file in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/View/Pages/index.ctp, line 64]
+2015-08-09 05:34:20 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 64)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 64, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 64, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-09 06:08:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 06:12:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 06:12:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 06:13:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 06:13:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 06:14:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 06:14:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 06:15:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 06:15:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 06:51:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 06:53:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 06:55:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 06:56:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 06:57:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 06:58:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 06:58:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 06:58:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 06:59:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 06:59:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:01:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:02:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:06:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:06:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:06:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:07:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:09:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:09:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:10:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:11:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:12:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:14:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:14:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:14:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:16:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:16:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:21:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:22:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:23:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:23:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:24:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:24:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:25:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:32:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:33:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:33:58 Error: [MissingControllerException] Controller class PlayerController could not be found.
+Exception Attributes: array (
+  'class' => 'PlayerController',
+  'plugin' => NULL,
+)
+Request URL: /player
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:34:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:34:34 Error: [MissingControllerException] Controller class PlayerController could not be found.
+Exception Attributes: array (
+  'class' => 'PlayerController',
+  'plugin' => NULL,
+)
+Request URL: /player/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:35:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:45:06 Error: [MissingControllerException] Controller class PlayerController could not be found.
+Exception Attributes: array (
+  'class' => 'PlayerController',
+  'plugin' => NULL,
+)
+Request URL: /player/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:45:19 Error: [MissingControllerException] Controller class PlayerController could not be found.
+Exception Attributes: array (
+  'class' => 'PlayerController',
+  'plugin' => NULL,
+)
+Request URL: /player
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:46:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:46:27 Error: [MissingControllerException] Controller class PlayerController could not be found.
+Exception Attributes: array (
+  'class' => 'PlayerController',
+  'plugin' => NULL,
+)
+Request URL: /player/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:48:22 Error: [MissingControllerException] Controller class PlayerController could not be found.
+Exception Attributes: array (
+  'class' => 'PlayerController',
+  'plugin' => NULL,
+)
+Request URL: /player/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:48:38 Error: [MissingControllerException] Controller class PlayerController could not be found.
+Exception Attributes: array (
+  'class' => 'PlayerController',
+  'plugin' => NULL,
+)
+Request URL: /player/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:50:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:50:43 Error: [MissingControllerException] Controller class PlayerController could not be found.
+Exception Attributes: array (
+  'class' => 'PlayerController',
+  'plugin' => NULL,
+)
+Request URL: /player/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:51:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 07:51:50 Error: [MissingActionException] Action PlayersController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'PlayersController',
+  'action' => 'add',
+)
+Request URL: /players/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-09 08:04:08 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/TopicsController.php, line 51]
+2015-08-09 08:04:08 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /topics/edit/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 51, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 51, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-09 08:07:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 08:08:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 08:10:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 08:10:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 08:11:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 08:12:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 08:12:53 Error: [MissingActionException] Action PlayersController::add-player() could not be found.
+Exception Attributes: array (
+  'controller' => 'PlayersController',
+  'action' => 'add-player',
+)
+Request URL: /players/add-player
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-09 08:13:23 Error: Fatal Error (4): syntax error, unexpected '-', expecting '(' in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/PlayersController.php, line 3]
+2015-08-09 08:13:23 Error: [FatalErrorException] syntax error, unexpected '-', expecting '('
+Request URL: /players/add-player
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 3, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 3, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-09 08:14:29 Error: [MissingActionException] Action PlayersController::add-player() could not be found.
+Exception Attributes: array (
+  'controller' => 'PlayersController',
+  'action' => 'add-player',
+)
+Request URL: /players/add-player
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-09 08:15:01 Error: [MissingActionException] Action PlayersController::add-player() could not be found.
+Exception Attributes: array (
+  'controller' => 'PlayersController',
+  'action' => 'add-player',
+)
+Request URL: /players/add-player
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-09 08:15:23 Error: [MissingActionException] Action PlayersController::add-player() could not be found.
+Exception Attributes: array (
+  'controller' => 'PlayersController',
+  'action' => 'add-player',
+)
+Request URL: /players/add-player
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-09 08:15:40 Error: [MissingActionException] Action PlayersController::add-player() could not be found.
+Exception Attributes: array (
+  'controller' => 'PlayersController',
+  'action' => 'add-player',
+)
+Request URL: /players/add-player
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-09 08:15:59 Error: [MissingActionException] Action PlayersController::add-player() could not be found.
+Exception Attributes: array (
+  'controller' => 'PlayersController',
+  'action' => 'add-player',
+)
+Request URL: /players/add-player
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-09 08:16:03 Error: [MissingActionException] Action PlayersController::add-player() could not be found.
+Exception Attributes: array (
+  'controller' => 'PlayersController',
+  'action' => 'add-player',
+)
+Request URL: /players/add-player
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-09 08:18:21 Error: [MissingActionException] Action PlayersController::add-player() could not be found.
+Exception Attributes: array (
+  'controller' => 'PlayersController',
+  'action' => 'add-player',
+)
+Request URL: /players/add-player
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-09 08:19:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 08:28:55 Error: Fatal Error (1): Call to a member function user() on null in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/PlayersController.php, line 4]
+2015-08-09 08:28:55 Error: [FatalErrorException] Call to a member function user() on null
+Request URL: /Players/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 4, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 4, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-09 08:29:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 08:36:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 08:36:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 08:36:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 08:37:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 08:37:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 08:38:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 08:38:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 08:38:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 08:41:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 08:42:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 08:42:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 09:11:24 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/PlayersController.php, line 19]
+2015-08-09 09:11:24 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /Players/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 19, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 19, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-09 09:17:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 09:24:33 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/PagesController.php, line 20]
+2015-08-09 09:24:33 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /detail/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 20, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 20, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-09 09:24:40 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/PagesController.php, line 20]
+2015-08-09 09:24:40 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /detail/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 20, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 20, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-09 09:25:16 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/PagesController.php, line 20]
+2015-08-09 09:25:16 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /detail/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 20, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 20, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-09 09:25:44 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/PagesController.php, line 20]
+2015-08-09 09:25:44 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /detail/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 20, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 20, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-09 09:28:45 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/PagesController.php, line 20]
+2015-08-09 09:28:45 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /detail/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 20, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 20, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-09 09:43:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 09:44:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 09:49:23 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /Players/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('INSERT INTO `bl...', Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `bl...')
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Model.php(1928): DboSource->create(Object(Player), Array, Array)
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#5 /Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/PlayersController.php(15): Model->save(Array)
+#6 [internal function]: PlayersController->add()
+#7 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PlayersController), Array)
+#8 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-08-09 09:51:13 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /Players/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('INSERT INTO `bl...', Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `bl...')
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Model.php(1928): DboSource->create(Object(Player), Array, Array)
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#5 /Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/PlayersController.php(15): Model->save(Array)
+#6 [internal function]: PlayersController->add()
+#7 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PlayersController), Array)
+#8 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-08-09 09:53:26 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /Players/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('INSERT INTO `bl...', Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `bl...')
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Model.php(1928): DboSource->create(Object(Player), Array, Array)
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#5 /Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/PlayersController.php(15): Model->save(Array)
+#6 [internal function]: PlayersController->add()
+#7 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PlayersController), Array)
+#8 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-08-09 09:54:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 09:57:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 10:00:09 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /Players/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('INSERT INTO `bl...', Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `bl...')
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Model.php(1928): DboSource->create(Object(Player), Array, Array)
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#5 /Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/PlayersController.php(15): Model->save(Array)
+#6 [internal function]: PlayersController->add()
+#7 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PlayersController), Array)
+#8 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-08-09 10:00:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 10:05:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 10:10:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 10:10:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 10:10:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 10:11:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 10:11:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 10:13:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 10:14:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 10:15:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 10:15:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 10:16:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 10:16:14 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`blog`.`comments`, CONSTRAINT `FK_comments_topic_id` FOREIGN KEY (`topic_id`) REFERENCES `topics` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /topics/delete/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('DELETE `Topic` ...', Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/Database/Mysql.php(455): DboSource->execute('DELETE `Topic` ...')
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Model.php(2709): Mysql->delete(Object(Topic), Array)
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/TopicsController.php(56): Model->delete('1')
+#5 [internal function]: TopicsController->delete('1')
+#6 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TopicsController), Array)
+#7 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-08-09 10:16:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 10:26:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 10:26:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 10:27:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 10:31:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 10:35:07 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/Config/routes.php, line 28]
+2015-08-09 10:35:07 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /detail/3
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 28, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 28, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-09 10:35:17 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/Config/routes.php, line 28]
+2015-08-09 10:35:17 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /detail/3
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 28, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 28, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-09 10:39:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 10:39:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 10:41:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 10:46:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 10:49:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 10:49:48 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`blog`.`comments`, CONSTRAINT `FK_comments_topic_id` FOREIGN KEY (`topic_id`) REFERENCES `topics` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /topics/delete/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('DELETE `Topic` ...', Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/Database/Mysql.php(455): DboSource->execute('DELETE `Topic` ...')
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Model.php(2709): Mysql->delete(Object(Topic), Array)
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/TopicsController.php(56): Model->delete('1')
+#5 [internal function]: TopicsController->delete('1')
+#6 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TopicsController), Array)
+#7 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-08-09 10:50:45 Error: Fatal Error (4): syntax error, unexpected end of file in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/View/Pages/index.ctp, line 80]
+2015-08-09 10:50:45 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 80)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 80, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 80, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-09 10:51:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 10:51:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 11:00:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 11:01:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 11:04:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 11:09:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 11:21:33 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`blog`.`comments`, CONSTRAINT `FK_comments_topic_id` FOREIGN KEY (`topic_id`) REFERENCES `topics` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /topics/delete/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('DELETE `Topic` ...', Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/Database/Mysql.php(455): DboSource->execute('DELETE `Topic` ...')
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Model.php(2709): Mysql->delete(Object(Topic), Array)
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/TopicsController.php(56): Model->delete('1')
+#5 [internal function]: TopicsController->delete('1')
+#6 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TopicsController), Array)
+#7 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-08-09 11:26:52 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/PagesController.php, line 45]
+2015-08-09 11:26:52 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 45, Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 45, Array)
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-09 11:27:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 11:29:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 11:30:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 11:31:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 11:32:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 11:32:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 11:33:11 Error: [MissingActionException] Action PlayersController::delete() could not be found.
+Exception Attributes: array (
+  'controller' => 'PlayersController',
+  'action' => 'delete',
+)
+Request URL: /players/delete/3
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-09 11:34:10 Error: [MissingViewException] View file "Players/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/delete.ctp',
+)
+Request URL: /players/delete/3
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-09 11:34:17 Error: [MissingViewException] View file "Players/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/delete.ctp',
+)
+Request URL: /players/delete/3
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-09 11:35:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 11:35:17 Error: [MissingViewException] View file "Players/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/delete.ctp',
+)
+Request URL: /players/delete/3
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-09 11:35:39 Error: [MissingViewException] View file "Players/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/delete.ctp',
+)
+Request URL: /players/delete/4
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-09 11:35:56 Error: [MissingActionException] Action PlayersController::edit() could not be found.
+Exception Attributes: array (
+  'controller' => 'PlayersController',
+  'action' => 'edit',
+)
+Request URL: /players/edit/3
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-09 11:36:25 Error: [MissingViewException] View file "Players/edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/edit.ctp',
+)
+Request URL: /players/edit/3
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-09 11:36:30 Error: [MissingViewException] View file "Players/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/delete.ctp',
+)
+Request URL: /players/delete/3
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-09 11:36:47 Error: [MissingViewException] View file "Players/edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/edit.ctp',
+)
+Request URL: /players/edit/3
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-09 11:43:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-09 11:43:15 Error: [MissingViewException] View file "Players/edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/edit.ctp',
+)
+Request URL: /players/edit/4
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-09 11:44:04 Error: [MissingViewException] View file "Players/edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/edit.ctp',
+)
+Request URL: /players/edit/4
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-09 15:10:06 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`blog`.`comments`, CONSTRAINT `FK_comments_topic_id` FOREIGN KEY (`topic_id`) REFERENCES `topics` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /topics/delete/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('DELETE `Topic` ...', Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/Database/Mysql.php(455): DboSource->execute('DELETE `Topic` ...')
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Model.php(2709): Mysql->delete(Object(Topic), Array)
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/TopicsController.php(56): Model->delete('1')
+#5 [internal function]: TopicsController->delete('1')
+#6 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TopicsController), Array)
+#7 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-08-10 08:26:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-10 08:26:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-10 08:26:53 Error: [MissingViewException] View file "Players/edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/edit.ctp',
+)
+Request URL: /players/edit/4
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-10 08:26:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-10 08:27:00 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`blog`.`comments`, CONSTRAINT `FK_comments_topic_id` FOREIGN KEY (`topic_id`) REFERENCES `topics` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /topics/delete/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('DELETE `Topic` ...', Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/Database/Mysql.php(455): DboSource->execute('DELETE `Topic` ...')
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Model.php(2709): Mysql->delete(Object(Topic), Array)
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/TopicsController.php(56): Model->delete('1')
+#5 [internal function]: TopicsController->delete('1')
+#6 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TopicsController), Array)
+#7 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-08-10 08:29:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-10 08:29:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-10 08:32:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-10 08:35:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-10 08:51:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-11 18:54:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-11 18:58:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-11 19:00:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-11 19:00:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-11 19:00:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-11 19:03:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-11 19:04:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-11 19:17:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-11 19:18:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-11 19:23:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-11 19:24:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-04 03:17:48 Error: [MissingControllerException] Controller class Docs-assetsController could not be found.
+Exception Attributes: array (
+  'class' => 'Docs-assetsController',
+  'plugin' => NULL,
+)
+Request URL: /docs-assets/ico/favicon.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-04 03:17:48 Error: [MissingControllerException] Controller class Docs-assetsController could not be found.
+Exception Attributes: array (
+  'class' => 'Docs-assetsController',
+  'plugin' => NULL,
+)
+Request URL: /docs-assets/ico/favicon.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-04 03:17:48 Error: [MissingControllerException] Controller class Docs-assetsController could not be found.
+Exception Attributes: array (
+  'class' => 'Docs-assetsController',
+  'plugin' => NULL,
+)
+Request URL: /docs-assets/ico/favicon.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-04 03:18:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-04 03:45:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-04 03:45:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-05 10:13:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-05 10:13:52 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'player-age' cannot be null
+Request URL: /Players/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('INSERT INTO `bl...', Array)
+#2 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `bl...')
+#3 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Model.php(1928): DboSource->create(Object(Player), Array, Array)
+#4 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#5 /Applications/MAMP/htdocs/bootcamp_day1-master/app/Controller/PlayersController.php(48): Model->save(Array)
+#6 [internal function]: PlayersController->add()
+#7 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PlayersController), Array)
+#8 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/bootcamp_day1-master/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-09-05 10:14:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-05 10:48:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-05 11:47:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-18 06:47:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/profile.pn
+Stack Trace:
+#0 /Applications/MAMP/htdocs/bootcamp_day1-master/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
